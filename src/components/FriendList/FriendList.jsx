@@ -7,7 +7,7 @@ export const FriendList = ({ friends }) => {
       <FriendListItem>
         {friends.map(({ avatar, name, isOnline, id }) => (
           <FriendItem key={id} >
-            <StatusColor isOnline={isOnline} aria-live="polite" />
+            <StatusColor $isOnline={isOnline} aria-live="polite" />
             <img className="avatar" src={avatar} alt="User avatar" width="48" />
             <p className="name">{name}</p>
           </FriendItem>

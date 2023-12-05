@@ -25,7 +25,7 @@ padding: 10px;
 `;
 
 export const StatusColor = styled.span`
-  background-color: ${props => (props.isOnline ? 'green' : 'red')};
+  background-color: ${props => (props.$isOnline ? 'green' : 'red')};
   width: 20px;
     height: 20px;
     border-radius: 10px;

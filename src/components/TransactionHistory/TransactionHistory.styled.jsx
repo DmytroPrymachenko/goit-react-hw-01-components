@@ -17,8 +17,6 @@ export const Th = styled.th`
 export const Tbody = styled.tbody`
   font-size: 18px;
 `;
-
 export const Td = styled.td`
-
   border: 1px solid black;
 `;
